@@ -1,4 +1,4 @@
-import { $build, Strophe } from 'strophe.js';
+import { $build, Strophe } from 'src/assets/strophe.umd.min.js';
 
 Strophe.addNamespace('RSM', 'http://jabber.org/protocol/rsm');
 
