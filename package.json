@@ -4,13 +4,13 @@
   "description": "A strophe.js plugin for XEP-0059 Result Set Management",
   "main": "lib/strophe.rsm.js",
   "scripts": {
-    "build": "rollup src/strophe.rsm.js -f umd -g strophe.js:window -o lib/strophe.rsm.js -m",
+    "build": "rollup src/strophe.rsm.js -f umd -g src/assets/strophe.umd.min.js:window -o lib/strophe.rsm.js -m",
     "prepublish": "npm run --silent build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strophe/strophejs-plugin-rsm.git"
+    "url": "git+https://github.com/quezx/strophejs-plugin-rsm.git"
   },
   "keywords": [
     "xmpp",
@@ -21,9 +21,9 @@
   "author": "The strophe plugin developers",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/strophe/strophejs-plugin-rsm/issues"
+    "url": "https://github.com/quezx/strophejs-plugin-rsm/issues"
   },
-  "homepage": "https://github.com/strophe/strophejs-plugin-rsm#readme",
+  "homepage": "https://github.com/quezx/strophejs-plugin-rsm#readme",
   "devDependencies": {
     "rollup": "^0.45.2"
   },
